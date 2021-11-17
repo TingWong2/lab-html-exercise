@@ -44,7 +44,7 @@
     margin-right: 1rem;
   }
 
-  #searchBox {
+  .searchBox {
     width: 600px;
     margin:auto;
 }
@@ -214,24 +214,19 @@ h4 {
   align-items: stretch;
   
  }
- .footer-btn {
-  box-shadow: 8px 8px 0 rgba(128,83,35,.2);
-  width: 300px;
-  height: 100px;
-  border: 1px solid black;
+ #org-btn {
   background-color: black;
- }
-
-#create-an-org{
+  color: white;
+  box-shadow: 8px 8px 0 rgba(128,83,35,.2);
+  float: center;
+  padding: 20px 100px 20px 100px;
+  margin-top: 40px;
   text-justify: center;
   text-decoration: none;
-  color: white;
-}
-  <!--section 1 
-  suggested height for this section: 600px
-background color: rgba(232,217,217,.3)
-"See plans" button background color: #FB3B49
-"See plans" button box shadow: 8px 8px 0 rgba(251,59,73,.2) -->
+  font-size: 18px; 
+ }
+  
+ 
 
 <!--section2
 heading background color: rgba(255,204,53,.4)
@@ -241,8 +236,4 @@ to additionally fine-tune the position of each element, use margin property.
 Again use a lot of flexbox to get the right position of elements - direction, justify-content, align-items.-->
 
 
-<!--section 3
-color of the letters in each heading in this section: #ED1C24
-"Create an Org" box shadow: 8px 8px 0 rgba(128,83,35,.2)
-"Create an Org" letters color: white -->
 
