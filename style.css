@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins');
 
 
-  body {
+body {
   font-family: 'Poppins';
 }
 
-  header > div {
+header > div {
     padding: 0 25px;
     display: flex;
     justify-content: space-between;
